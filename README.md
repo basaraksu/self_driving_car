@@ -42,7 +42,7 @@ To optimize model performance, the data underwent several stages:
 ---
 
 ## 🧠 Model Architecture: NVIDIA CNN
-The project utilizes the **NVIDIA Convolutional Neural Network** architecture, which is optimized for end-to-end learning by mapping pixels directly to steering commands.
+The project utilizes the [**NVIDIA Convolutional Neural Network**](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf) architecture, which is optimized for end-to-end learning by mapping pixels directly to steering commands.
 
 **Input:** $66 \times 200$ pixel normalized RGB images.
 **Layers:** Consists of 5 convolutional layers for feature extraction and 3 fully connected layers for analysis.
